@@ -1,2 +1,121 @@
 # the-new-regal
 The new regal Chinese 
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The New Regal | Meols Wirral</title>
+    <meta name="description" content="The New Regal: Fish and Chips & Chinese Takeaway in Meols, Wirral. Open from 4:30pm. Call 0151 632 1542 to order.">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+        :root { --main: #c02026; --light: #f8f8f8; --dark: #222; }
+        body { line-height: 1.6; color: #333; }
+        header { background: var(--main); color: white; padding: 1.2rem; text-align: center; }
+        header h1 { font-size: 1.8rem; margin-bottom: 0.3rem; }
+        nav { background: #333; padding: 0.7rem; text-align: center; }
+        nav a { color: white; margin: 0 1rem; text-decoration: none; font-weight: bold; }
+        nav a:hover { color: #ffd700; }
+        section { padding: 1.5rem; max-width: 1000px; margin: auto; }
+        .hours { background: #fff3cd; padding: 1rem; border-radius: 6px; margin: 1rem 0; text-align: center; font-weight: bold; }
+        .menu-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-top: 1rem; }
+        .menu-item { background: var(--light); padding: 1rem; border-radius: 6px; border-left: 4px solid var(--main); }
+        .contact-box { background: var(--light); padding: 1.2rem; border-radius: 6px; margin: 1rem 0; text-align: center; }
+        footer { background: var(--dark); color: white; text-align: center; padding: 1rem; margin-top: 2rem; font-size: 0.9rem; }
+        @media (max-width: 600px) { nav a { margin: 0 0.5rem; font-size: 0.9rem; } }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>The New Regal</h1>
+    <p>Fish and Chips • Chinese Takeaway</p>
+    <p>Meols, Wirral</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#menu">Menu</a>
+    <a href="#about">About</a>
+    <a href="#location">Location</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="home">
+    <h2>Welcome to The New Regal</h2>
+    <p>Your local takeaway serving delicious traditional fish and chips and authentic Chinese dishes in Meols, Wirral. Great taste, friendly service, and prices from just £1.</p>
+
+    <div class="hours">
+        Opening Hours:<br>
+        Closed until 4:30 pm<br>
+        Open daily from 4:30 pm
+    </div>
+
+    <div class="contact-box">
+        📞 <strong>Order now:</strong> 0151 632 1542<br>
+        💷 Price range: £1 – £10 per person<br>
+        ✅ Collection & Delivery available
+    </div>
+</section>
+
+<section id="menu">
+    <h2>Our Menu</h2>
+    <p>Popular choices below – full range available when you call or visit.</p>
+    <div class="menu-grid">
+        <div class="menu-item">
+            <h3>Fish and Chips</h3>
+            <p>Freshly fried cod or haddock with chips – our classic bestseller.</p>
+        </div>
+        <div class="menu-item">
+            <h3>Siu Mai</h3>
+            <p>Served with sweet & chilli sauce or soy sauce.</p>
+        </div>
+        <div class="menu-item">
+            <h3>Tempura</h3>
+            <p>Light, crispy battered seafood and vegetables.</p>
+        </div>
+        <div class="menu-item">
+            <h3>Mixed Meats Foo Yung</h3>
+            <p>Fluffy omelette with mixed meats and vegetables.</p>
+        </div>
+        <div class="menu-item">
+            <h3>Chinese Favourites</h3>
+            <p>Curries, fried rice, noodles, and more – prices start from £2.50.</p>
+        </div>
+        <div class="menu-item">
+            <h3>Chip Shop Classics</h3>
+            <p>Pies, sausages, burgers, and sides – from just £1.</p>
+        </div>
+    </div>
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>The New Regal has been serving the Meols and Wirral community with quality takeaway food. We combine the best of British fish and chips with tasty Chinese cooking, using fresh ingredients every day.</p>
+    <p>We aim to give you great food at affordable prices, with fast service whether you collect or have it delivered.</p>
+</section>
+
+<section id="location">
+    <h2>Find Us</h2>
+    <p><strong>Address:</strong><br>
+    The New Regal<br>
+    11 Station Approach<br>
+    Meols<br>
+    Wirral<br>
+    CH47 8XA</p>
+    <p>Located close to Meols Station – easy parking and access.</p>
+</section>
+
+<section id="contact">
+    <h2>Get in Touch</h2>
+    <p>📞 <strong>Phone:</strong> 0151 632 1542</p>
+    <p>📍 <strong>Area:</strong> Serving Meols, Hoylake, West Kirby and surrounding parts of Wirral.</p>
+    <p>🚚 Delivery available locally – ask when you call.</p>
+</section>
+
+<footer>
+    &copy; 2026 The New Regal | 11 Station Approach, Meols CH47 8XA | Tel: 0151 632 1542
+</footer>
+
+</body>
+</html>
